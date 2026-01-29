@@ -42,7 +42,7 @@ This repository is organized to separate Source Code, Verification, and Physical
 │   └── timing.log      # Static Timing Analysis (STA) Logs
 └── docs/           # Documentation & Plots
     └── images/         # Heatmaps and Layouts 
-
+```
 ## 4. Functional Verification
 The design functionality was verified through Simulation and Waveform Analysis.
 The testbenches generated signal patterns for Transmission (TX) and Reception (RX). The output waveforms were manually inspected to verify:
@@ -69,3 +69,4 @@ The layout was pushed to **79% core utilization** to test the limits of the Sky1
 | :---: | :---: |
 | ![Placement](docs/images/placement_heatmap.png) | ![Routing](docs/images/routing_heatmap.png) |
 | *Heatmap showing 79% logic density* | *Clean routing channels (Blue/Green)* |
+
